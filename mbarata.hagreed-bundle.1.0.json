@@ -11,8 +11,18 @@
           "config/": "%CONFIG_DIR%/"
         },
         "env": {
-          "HAGREED_TOKEN": ""
-        }
+          "HAGREED_TOKEN": null
+        },
+        "add-lines": [
+          {
+            "file": "importmap.php",
+            "position": "after_target",
+            "target": "],",
+            "content": "    '@tizy/hagreed/hagreed.js' => [\n        'version' => '1.2.7',\n    ],\n    '@tizy/hagreed/style.css' => [\n        'version' => '1.2.7',\n        'type' => 'css',\n    ],",
+            "warn_if_missing": true,
+            "requires": "symfony/asset-mapper"
+          }
+        ]
       },
       "files": [],
       "ref": "9e1664cbefd0d0b7332ba30311f8647f9ffe0b19"
