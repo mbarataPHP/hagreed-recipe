@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "mbarata/hagreed-bundle": [
+      "1.0"
+    ]
+  },
+  "branch": "main",
+  "is_contrib": true,
+  "_links": {
+    "repository": "https://github.com/mbarataPHP/hagreed-recipe",
+    "origin_template": "{package}:{version}@github.com/mbarataPHP/hagreed-recipe:main",
+    "recipe_template": "https://api.github.com/repos/mbarataPHP/hagreed-recipe/contents/{package_dotted}.{version}.json"
+  }
+}
