@@ -7,12 +7,6 @@
             "all"
           ]
         },
-        "copy-from-recipe": {
-          "config/": "%CONFIG_DIR%/"
-        },
-        "env": {
-          "HAGREED_TOKEN": null
-        },
         "add-lines": [
           {
             "file": "importmap.php",
@@ -22,7 +16,13 @@
             "warn_if_missing": true,
             "requires": "symfony/asset-mapper"
           }
-        ]
+        ],
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%/"
+        },
+        "env": {
+          "HAGREED_TOKEN": null
+        }
       },
       "files": [],
       "ref": "9e1664cbefd0d0b7332ba30311f8647f9ffe0b19"
