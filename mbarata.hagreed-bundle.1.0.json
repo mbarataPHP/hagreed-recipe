@@ -21,7 +21,7 @@
           "config/": "%CONFIG_DIR%/"
         },
         "env": {
-          "HAGREED_TOKEN": null
+          "HAGREED_TOKEN": ""
         }
       },
       "files": [],
